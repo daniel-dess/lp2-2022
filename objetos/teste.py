@@ -28,8 +28,10 @@ c4 = Conta(3, 'Limite Padrão', 200, 600)
 print(c4.limite)
 
 print(c1.__str__())
-
+print(dir(c1))
+#c1._Conta__saldo = 10000
 print('Extrato do cliente')
 print(c1.extrato())
+print(c1.saldo)
 
 #Como melhorar a impressão do histórico?
